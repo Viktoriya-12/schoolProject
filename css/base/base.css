@@ -1,8 +1,5 @@
 @import url("./reset.css");
 @import url("./../blocks/main.css");
-@import url("./../blocks/style.css");
-@import url("./../blocks/media.css");
-
 
 @font-face {
   font-family: 'textAccent';
@@ -15,7 +12,7 @@
 }
 
 @font-face {
-  font-family: 'textAdditional';
+  font-family: 'textMain';
   src:
     url('./../../fonts/RussoOne.woff2') format('woff2'),
     url('./../../fonts/RussoOne.woff') format('woff');
@@ -25,7 +22,7 @@
 }
 
 @font-face {
-  font-family: 'textMain';
+  font-family: 'textAdditional';
   src:
     url('./../../fonts/PTSansCaption.woff2') format('woff2'),
     url('./../../fonts/PTSansCaption.woff') format('woff');
