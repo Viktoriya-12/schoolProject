@@ -49,3 +49,8 @@ img{
 h1, h2, h3, p, li{
 	cursor: default;
 }
+
+
+a {
+    -webkit-tap-highlight-color: transparent; /* для WebKit браузеров */
+}

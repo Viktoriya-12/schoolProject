@@ -15,15 +15,17 @@
         <nav class="header__nav container">
             <img src="./images/main-icon.jpg" alt="Логотип БайтыРазума" class="header__logo">
             <div class="burger-menu">
-                <svg class="burger-menu__arrow" width="131" height="136" viewBox="0 0 131 136" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.6507 43.2949C32.4339 30.7255 51.9743 23.0115 72.683 28.6293C91.3749 33.7001 103.143 49.6308 90.5396 69.3323C84.5735 78.6586 71.8706 85.1866 61.8852 79.874C50.7606 73.9554 59.5288 59.017 66.6505 54.7089C83.2839 44.6468 106.696 49.3237 118.212 68.8676C131.849 92.0121 108.785 103.532 108.769 103.344" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.2682 18.3819C19.8774 20.8064 19.5256 23.2335 19.2862 25.677C18.5006 33.7006 15.3552 42.0307 9.71151 47.2931C17.1379 44.0369 27.7921 42.6188 34.5374 48.3345" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <p class="text burger-menu__text">навигация по странице</p>
-                <div class="burger-menu__button">
-                    <div class="burger-menu__line burger-menu__line--first"></div>
-                    <div class="burger-menu__line burger-menu__line--second"></div>
-                    <div class="burger-menu__line burger-menu__line--third"></div>
+                <div class="burger-menu__decoration">
+                    <svg class="burger-menu__arrow" width="131" height="136" viewBox="0 0 131 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.6507 43.2949C32.4339 30.7255 51.9743 23.0115 72.683 28.6293C91.3749 33.7001 103.143 49.6308 90.5396 69.3323C84.5735 78.6586 71.8706 85.1866 61.8852 79.874C50.7606 73.9554 59.5288 59.017 66.6505 54.7089C83.2839 44.6468 106.696 49.3237 118.212 68.8676C131.849 92.0121 108.785 103.532 108.769 103.344" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M19.2682 18.3819C19.8774 20.8064 19.5256 23.2335 19.2862 25.677C18.5006 33.7006 15.3552 42.0307 9.71151 47.2931C17.1379 44.0369 27.7921 42.6188 34.5374 48.3345" stroke="currentColor" stroke-width="3.37884" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="burger-menu__button">
+                        <div class="burger-menu__line burger-menu__line--first"></div>
+                        <div class="burger-menu__line burger-menu__line--second"></div>
+                        <div class="burger-menu__line burger-menu__line--third"></div>
+                    </div>
+                    <p class="text burger-menu__text">навигация по странице</p>
                 </div>
                 <div class="burger-menu__overlay"></div>
                 <div class="burger-menu__content">
@@ -43,20 +45,18 @@
             <h1 class="title about__title">БайтыРазума - нейросети просто и интересно</h1>
             <div class="about__content">
                 <div class="about__block about__block--left">
-                    <div class="about__info">
-                        <h2 class="title about__subtitle">О чем сайт?</h2>
-                        <p class="text about__text">
-                            Здесь собрана вся основная информация о нейросетях, а так же интересные факты, которые не всем известны. Все объяснено максимально понятно и просто.
-                        </p>
-                        <h2 class="title about__subtitle">Что узнаешь?</h2>
-                        <p class="text about__text">
-                            Как нейросети пишут тексты, генерируют изображения, понимают суть написанных слов человеком и их принципы работы. Их основные архитектуры (виды нейросетей).
-                        </p>
-                        <h2 class="title about__subtitle">Почему актуален?</h2>
-                        <p class="text about__text">
-                            Понимая нейросеть, открываешь новые возможности, которые определяют наше будущее прямо сейчас.
-                        </p>
-                    </div>
+                    <h2 class="title about__subtitle">О чем сайт?</h2>
+                    <p class="text about__text">
+                        Здесь собрана вся основная информация о нейросетях, а так же интересные факты, которые не всем известны. Все объяснено максимально понятно и просто.
+                    </p>
+                    <h2 class="title about__subtitle">Что узнаешь?</h2>
+                    <p class="text about__text">
+                        Как нейросети пишут тексты, генерируют изображения, понимают суть написанных слов человеком и их принципы работы. Их основные архитектуры (виды нейросетей).
+                    </p>
+                    <h2 class="title about__subtitle">Почему актуален?</h2>
+                    <p class="text about__text">
+                        Понимая нейросеть, открываешь новые возможности, которые определяют наше будущее прямо сейчас.
+                    </p>
                 </div>
                 <div class="about__block about__block--right">
                     <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
@@ -66,6 +66,7 @@
             </div>
         </section>
         <section id="neuro" class="neuro">
+            <div class="neuro__content">
                 <h2 class="title neuro__title">Что такое нейросети?</h2>
                 <div class="neuro__definition background__cards--accent">
                     <p class="text neuro__text"><dfn class="important-text neuro__important">Нейросеть</dfn> — это компьютерная программа, которая учится решать задачи, анализируя множество примеров. Нейросеть не программируется в привычном смысле, она обучается.
@@ -75,30 +76,31 @@
                     <img class="neuro__example-img" src="./images/12887428.png" alt="Иллюстрация ученика и учителя">
                     <div class="neuro__list background__cards--accent">
                         <h3 class="title neuro__list-title">Пример из жизни:</h3>
-                        <p class="text neuro__list-item">Ученик решает математические задачи</p>
-                        <p class="text neuro__list-item">Учитель проверяет и указывает на ошибки</p>
-                        <p class="text neuro__list-item">Ученик пересматривает решение, усиливает внимания к верным подходам, не полагается на ошибочные решения.</p>
+                        <p class="text neuro__list-item list-counter">Ученик решает математические задачи</p>
+                        <p class="text neuro__list-item list-counter">Учитель проверяет и указывает на ошибки</p>
+                        <p class="text neuro__list-item list-counter">Ученик пересматривает решение, усиливает внимания к верным подходам, не полагается на ошибочные решения.</p>
                     </div>
                 </div>
                 <div class="neuro__example">
                     <img class="neuro__example-img" src="./images/4039134.png" alt="Иллюстрация работы нейросети">
                     <div class="neuro__list background__cards--accent">
                         <h3 class="title neuro__list-title">Как это работает в нейросетях:</h3>
-                        <p class="text neuro__list-item">Каждый неправильный ответ уменьшает <strong class="important-text">вес</strong> ошибочных связей между нейронами</p>
-                        <p class="text neuro__list-item">Каждый верный ответ усиливает полезные связи</p>
-                        <p class="text neuro__list-item">После тысяч попыток остаются только самые надежные «пути»(имеющие больший вес) к правильному ответу
+                        <p class="text neuro__list-item list-counter">Каждый неправильный ответ уменьшает <strong>вес</strong> ошибочных связей между нейронами</p>
+                        <p class="text neuro__list-item list-counter">Каждый верный ответ усиливает полезные связи</p>
+                        <p class="text neuro__list-item list-counter">После тысяч попыток остаются только самые надежные «пути»(имеющие больший вес) к правильному ответу
                         </p>
                     </div>
                 </div>
                 <div class="neuro__example">
                     <img class="neuro__example-img" src="./images/6062334.png" alt="Иллюстрация результата работы нейросети">
-                    <div class="neuro__list background__cards--accent">
+                    <div class="neuro__list  background__cards--accent">
                         <h3 class="title neuro__list-title">Результат:</h3>
-                        <p class="text neuro__list-item">С каждой ошибкой нейросеть становится точнее</p>
-                        <p class="text neuro__list-item">Чем дольше обучение, тем надежнее её «догадки»</p>
-                        <p class="text neuro__list-item">В итоге она выдаёт ответы, которые кажутся почти интуитивными (но на самом деле — результат тысяч корректировок)</p>
+                        <p class="text neuro__list-item list-counter">С каждой ошибкой нейросеть становится точнее</p>
+                        <p class="text neuro__list-item list-counter">Чем дольше обучение, тем надежнее её «догадки»</p>
+                        <p class="text neuro__list-item list-counter">В итоге она выдаёт ответы, которые кажутся почти интуитивными (но на самом деле — результат тысяч корректировок)</p>
                     </div> 
                 </div>
+            </div>
         </section>
         <section id="difference" class="difference">
             <div class="difference__content background__cards">
@@ -107,14 +109,16 @@
                     <h3 class="title difference__subtitle">Нейросети — часть большого мира ИИ</h3>
                 </div>
                 <div class="difference__content-block">
-                    <h3 class="title">Искусственный Интеллект (ИИ)</h3>
-                    <p class="text">Все системы, имитирующие разумное поведение</p>
+                    <div class="difference__list--label">
+                        <h3 class="title">Искусственный Интеллект (ИИ)</h3>
+                        <p class="text">Все системы, имитирующие разумное поведение</p>
+                    </div>
                     <ol class="difference__list">
-                        <li class="difference__item background__cards--accent">Классический (строгие алгоритмы)</li>
-                        <li class="difference__item background__cards--accent">Автономный (учиться на данных. Пример: робототехника)</li>
-                        <li class="difference__item background__cards--accent">Машинное обучени (учиться самостоятельно)
+                        <li class="difference__item background__cards--accent list-counter">Классический (строгие алгоритмы)</li>
+                        <li class="difference__item background__cards--accent list-counter">Автономный (учиться на данных. Пример: робототехника)</li>
+                        <li class="difference__item background__cards--accent list-counter">Машинное обучени (учиться самостоятельно)
                             <div class="difference__neuro background__cards--accent">
-                                <h3 class="important-text">Нейросети</h3>
+                                <h3 class="difference__neuro--main-text">Нейросети</h3>
                                 <p>один из методов машинного обучения</p>
                             </div>
                         </li>
@@ -224,7 +228,7 @@
                             <div class="history__slide-block">
                                 <div>
                                     <h3 class="text history__slide-title">Теория ожила</h3>
-                                    <p class="text"><strong>Фрэнк Розенблатт</strong> на основе теорий собрал «Марк-1» — первый в мире нейрокомпьютер. Его <dfn class="important-text">перцептрон</dfn> на ламповых транзисторах мог узнавать написанные от руки буквы.</p>
+                                    <p class="text"><strong>Фрэнк Розенблатт</strong> на основе теорий собрал «Марк-1» — первый в мире нейрокомпьютер. Его <strong>перцептрон</strong> на ламповых транзисторах мог узнавать написанные от руки буквы.</p>
                                 </div>
                                 <div class="history__accent">
                                     <p class="text"><strong>Что произошло:</strong> вызвало невероятный ажиотаж. Казалось, до разумных роботов осталось лет десять.</p>
@@ -243,7 +247,7 @@
                                     <p class="text">Метод обратного распространения был описан в 1974 году <strong>Александром Галушкиным</strong>, а также независимо и одновременно <strong>Полом Вербосом</strong>. И далее развит группой ученных в 1986 году</p>
                                 </div>
                                 <div class="history__accent">
-                                    <p class="text"><strong>Как работает:</strong> сеть обращает внимание на ошибки и как винтики подстраивает нейроны, придавая <dfn class="important-text">вес</dfn> каждому</p>
+                                    <p class="text"><strong>Как работает:</strong> сеть обращает внимание на ошибки и как винтики подстраивает нейроны, придавая <strong>вес</strong> каждому</p>
                                 </div>
                                 <p class="text">Принцип их работы <a href="#neuro" class="text-link">здесь</a></p>
                             </div>
@@ -272,7 +276,7 @@
                             <div class="history__slide-block">
                                 <div>
                                     <h3 class="text history__slide-title">Информационная революция</h3>
-                                    <p class="text"><a href="#architecture" class="text-link">Трансформеры</a> стали смотреть на всё сразу, находя связи между самыми далёкими словами в предложении с помощью <dfn class="important-text">механизма внимания</dfn></p>
+                                    <p class="text"><a href="#architecture" class="text-link">Трансформеры</a> стали смотреть на всё сразу, находя связи между самыми далёкими словами в предложении с помощью <strong>механизма внимания</strong></p>
                                 </div>
                                 <div class="history__accent">
                                     <p class="text"><strong>Пример их работы:</strong> король - мужчина + женщина = королева</p>
