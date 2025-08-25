@@ -52,5 +52,9 @@ h1, h2, h3, p, li{
 
 
 a {
-    -webkit-tap-highlight-color: transparent; /* для WebKit браузеров */
+    -webkit-tap-highlight-color: transparent;
+}
+
+div{
+	box-sizing: border-box;
 }
